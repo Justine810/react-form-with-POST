@@ -48,7 +48,7 @@ submitForm(e)
       <div className="form-data">
         <label htmlFor="title">Name</label>
         <input
-          type="text"
+          type="text" required
           id="title"
           name="title"
           onChange={this.onChange}
@@ -59,7 +59,7 @@ submitForm(e)
       <div className="form-data">
         <label htmlFor="poster">Poster</label>
         <input
-          type="text"
+          type="text" required
           id="poster"
           name="poster"
           onChange={this.onChange}
@@ -70,7 +70,7 @@ submitForm(e)
       <div className="form-data">
         <label htmlFor="comment">Comment</label>
         <input
-          type="textarea"
+          type="textarea" required
           id="comment"
           name="comment"
           onChange={this.onChange}
