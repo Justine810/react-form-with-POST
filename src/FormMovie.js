@@ -79,7 +79,7 @@ submitForm(e)
       </div>
       <hr />
       <div className="form-data">
-        <input type="submit" value="Envoyer" />
+        <input type="submit" value="Send" />
       </div>
     </fieldset>
   </form>
